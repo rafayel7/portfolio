@@ -15,9 +15,10 @@ body {
     color: #FD6E0A;
 }
 
-section{
+section {
     margin-top: 130px;
 }
+
 /* =============== */
 .header {
     background-color: #FFF8F3;
@@ -173,7 +174,97 @@ main {
 
 /* === Resume === */
 
-.resume .section-title{
+.resume .section-title {
     margin-bottom: 100px;
     text-align: center;
+}
+
+.resume-content {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #474747
+}
+
+.resume-item {}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-subtitle {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume-description {
+    font-size: 16px;
+    line-height: 1.7rem;
+    color: #757575;
+    text-align: justify;
+}
+
+.horizontal-line {
+    margin: 30px 0;
+    background: #D1D1D1;
+    height: 1px;
+    opacity: .7;
+}
+
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* === === */
+.footer-area {
+    display: flex;
+    gap: 90px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 100px 230px 80px;
+
+
+}
+
+.footer-area .section-title {
+    color: #181818;
+    text-align: left;
+}
+
+.footer-area input[type="text"],
+input[type="email"],
+textarea {
+    border: none;
+    padding: 15px 30px;
+    background: #ffffff;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.footer-description{
+    font-size: 16px;
+    line-height: 1.8;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.footer-area a{
+    text-decoration: none;
+}
+
+.footer-area a img{
+    margin-left: 25px;
+    height: 30px;
+    width: 30px;
 }
